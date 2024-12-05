@@ -1,12 +1,5 @@
 ======================================================      
-# 	BLOCK CHAIN BASED VOTING SYSTEM		                 
-## 		CEC/CS/2022/P07			                               
-### 	CANARA ENGINEERING COLLEGE MANGALORE	             
-ADITHYA PAI B			                                
-		GG ASHWIN PRABHU 		                              
-		K KESHAVA BHAT			                                
-		M PRAJWAL KINI			                                
-						                                              
+# 	BLOCK CHAIN BASED VOTING SYSTEM		                 						                                              
 ======================================================      
 
 
@@ -118,8 +111,3 @@ To run the verification Client Application
 
 Open `http://localhost:3000` for Voting booth application.
 Open` http://localhost:3001` for Voting verification Application.
-
-
--readme.txt by ADITHYA PAI B
-
-

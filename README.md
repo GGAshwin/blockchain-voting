@@ -5,7 +5,6 @@
 
 CONTENTS:
 
-0. DESCRIPTION
 1. SYSTEM WORKFLOW
 2. SETUP
 	- REQUIREMENTS
@@ -15,18 +14,10 @@ CONTENTS:
 
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-0. DESCRIPTION
-
-### BlockChain Based Voting 
-This project is a Final Year project From CEC/CS/P07 Group. It provides a secure and decentralized voting system based on blockchain technology. 
-The application ensures that the voting process is transparent, immutable, and secure.
-
-
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 1. SYSTEM WORKFLOW
 
 ### A brief explanation on the basic workflow of the application:
-* Admin will create a voting instance by launching/deploying the system in a blockchain network (EVM), then create an election instance and start the election with the details 		  of the election filled in (including candidates for voters to vote).
+* Admin will create a voting instance by launching/deploying the system in a blockchain network (EVM), then create an election instance and start the election with the details of the election filled in (including candidates for voters to vote).
 * Then the likely voters connect to the same blockchain network register to become a voter. Once the users successfully register, their respective details are sent/displayed in 	  the admins' panel (i.e. verification page).
 * The admin then will check if the registration information (blockchain account address, name, and phone number) is valid and matches with his record. If yes, then the admin 		  	  approves the registered user making them eligible to take part and cast their respective vote in the election.
 * The registered user (voter) following the approval from the admin casts their vote to the candidate of interest (from the voting page).
@@ -44,8 +35,8 @@ Metamask (Browser Extension)
 
 ===== SETUP ENVIROMENT======
 
-01. Install node-v18.16.0-x64.msi from Setup Files
-02. Install Ganache-2.7.1-win-x64.appx from Setup Files
+01. Install node-v18.16.0-x64.msi
+02. Install Ganache-2.7.1-win-x64.appx
 03. Install Truffle using command prompt (Powershell) using the command `npm install -g truffle`
 04. Install Metamask on Chrome using the link https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn and login to it
 05. Open Ganache run A workflow and note down the RPC Port URL 
